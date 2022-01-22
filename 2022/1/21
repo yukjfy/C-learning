@@ -28,3 +28,42 @@ int main()
 	printf("sum= %d", sum);
 	return 1;
 }
+
+//int gvl = 22;    /*全局变量*/
+//int main(void)
+//{
+	//{
+	//	int gv = 20;  /*局部变量*/
+	//	{
+	//		printf("%d", gv);
+	//	}
+	//}
+	//printf('%d',gvl);
+	//return 0;
+//}
+
+//enum SEX  /*创建枚举常量*/
+//{
+//	MALE=0,
+//	FEMALE=1,
+//	SECRETE=2
+//};
+//#define A 1022; /*创建标识符常量A*/
+//int main()
+//{
+//#define B 20022;
+//	int m = B;
+//	printf("%d\n",m);
+//	int n = A;
+//	printf("%d\n",n);
+//	return 0;
+//}
+
+int main()
+{
+	char str1[] = "archetect is";
+	char str2[] = "a bullshit.";
+	printf("%s %s",str1,str2);
+	printf("\a");
+	return 0;
+}
