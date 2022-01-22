@@ -61,7 +61,7 @@ int main()
 
 int main()
 {
-	char str1[] = "archetect is";
+	char str1[] = "architecture is";
 	char str2[] = "a bullshit.";
 	printf("%s %s",str1,str2);
 	printf("\a");
