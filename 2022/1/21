@@ -109,3 +109,44 @@ int main()
 //	return 0;
 //}
 //2022/1/23
+
+//#define MULTI(X,Y) ((X)+(Y)) //声明宏
+//int main()
+//{
+//	printf("%d", 4*MULTI(5647, 7659));
+//	
+//	return 0;
+//}
+
+//int main()
+//{
+//	int a = 10;
+//	printf("%d\n", sizeof(char*));
+//	printf("%d\n", sizeof(int*));
+//	printf("%d\n", sizeof(short*));
+//	printf("%d\n", sizeof(long*));
+//	printf("%d\n", sizeof(long long*));
+//	printf("%d\n", sizeof(float*));
+//	printf("%d\n", sizeof(double*));
+//	printf("%d\n", sizeof(a));
+//	return 0;
+//}
+
+void SMILE()
+{
+	printf("smile!");
+}
+
+int main(void)
+{
+	SMILE();
+	SMILE();
+	SMILE();
+	printf("\n");
+	SMILE();
+	SMILE();
+	printf("\n");
+	SMILE();
+	return 0;
+}
+//2022/1/24
