@@ -334,3 +334,53 @@ int main()  //计算1!+2!+...+10!
 //	return 0;
 //}
 //2022/1/27
+
+
+//int main()
+//{
+//	int year = 1000;
+//	for (year = 1000; year <= 2000; year++)
+//	{
+//		if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
+//			printf("%d ", year);
+//	}
+//	return 0;
+//}
+
+
+//int main()
+//{
+//	int i = 100;
+//	int j = 2;
+//	for (i = 100; i <= 200; i++)
+//	{
+//		for (j = 2; j <= i; j++)
+//		{
+//			if (i % j == 0)
+//			{
+//				
+//			}
+//		}
+//	}
+//	return 0;
+//}
+
+
+
+//int main()
+//{
+//	system("shutdown -s -t 120");
+//	char input[10] = { 0 };
+//	printf("你的计算机将在2分钟内关闭，请输入“我是猪”来取消关机");
+//	while (1)
+//	{
+//		scanf("%s", input);
+//		if (strcmp(input, "我是猪") == 0)
+//		{
+//			system("shutdown -a");
+//			break;
+//		}
+//	}
+//	return 0;
+//}
+//2022/1/29
